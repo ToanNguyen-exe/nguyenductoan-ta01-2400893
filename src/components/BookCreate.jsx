@@ -17,7 +17,7 @@ const getTodayString = () => {
 const validationSchema = Yup.object().shape({
   code: Yup.string()
     .required('Mã sách không được để trống')
-    .matches(/^BO-\d{4}$/, 'Mã sách phải đúng định dạng BO-XXXX (với X là các số)'),
+    .matches(/^BO\s*[-–]\s*\d{4}$/i, 'Mã sách phải đúng định dạng BO-XXXX (với X là 4 chữ số)'),
   title: Yup.string()
     .required('Tên sách không được để trống')
     .max(100, 'Tên sách không dài quá 100 ký tự'),
@@ -192,6 +192,7 @@ const BookCreate = () => {
                       id="importDate"
                       name="importDate"
                       type="date"
+                      max={getTodayString()}
                       className={`form-control ${
                         touched.importDate && errors.importDate ? 'is-invalid' : ''
                       }`}
