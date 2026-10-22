@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "code": "TL-01",
+      "name": "Khoa học",
+      "description": "Sách về khoa học, vũ trụ và tự nhiên"
+    },
+    {
+      "id": "2",
+      "code": "TL-02",
+      "name": "Văn học",
+      "description": "Tiểu thuyết, truyện ngắn tác phẩm văn học nghệ thuật"
+    },
+    {
+      "id": "3",
+      "code": "TL-03",
+      "name": "Lịch sử",
+      "description": "Sách lịch sử Việt Nam và lịch sử thế giới"
+    },
+    {
+      "id": "4",
+      "code": "TL-04",
+      "name": "Kinh tế",
+      "description": "Tài chính, quản trị kinh doanh và kỹ năng mềm"
+    },
+    {
+      "id": "5",
+      "code": "TL-05",
+      "name": "Manga - Comic",
+      "description": "Truyện tranh Nhật Bản, artbook và truyện tranh thiếu nhi"
+    },
+    {
+      "id": "6",
+      "code": "TL-06",
+      "name": "Light Novel",
+      "description": "Tiểu thuyết ánh sáng phong cách anime kỳ ảo"
+    },
+    {
+      "id": "7",
+      "code": "TL-07",
+      "name": "Công nghệ thông tin",
+      "description": "Lập trình phần mềm, trí tuệ nhân tạo và hệ thống mạng"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "code": "BO-0001",
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "categoryId": "2",
+      "importDate": "2024-01-15",
+      "quantity": 15
+    },
+    {
+      "id": "2",
+      "code": "BO-0002",
+      "title": "Vũ Trụ Trong Vỏ Hạt Dẻ",
+      "categoryId": "1",
+      "importDate": "2024-05-20",
+      "quantity": 8
+    },
+    {
+      "id": "3",
+      "code": "BO-0003",
+      "title": "Đại Việt Sử Ký Toàn Thư",
+      "categoryId": "3",
+      "importDate": "2024-09-10",
+      "quantity": 25
+    },
+    {
+      "id": "4",
+      "code": "BO-0004",
+      "title": "Nhà Giả Kim",
+      "categoryId": "2",
+      "importDate": "2025-02-14",
+      "quantity": 30
+    },
+    {
+      "id": "5",
+      "code": "BO-0005",
+      "title": "Kinh Tế Học Hài Hước",
+      "categoryId": "4",
+      "importDate": "2025-06-18",
+      "quantity": 5
+    },
+    {
+      "id": "6",
+      "code": "BO-0006",
+      "title": "One Piece - Đảo Hải Tặc (Tập 108)",
+      "categoryId": "5",
+      "importDate": "2025-11-20",
+      "quantity": 50
+    },
+    {
+      "id": "7",
+      "code": "BO-0007",
+      "title": "Thám Tử Lừng Danh Conan (Tập 104)",
+      "categoryId": "5",
+      "importDate": "2026-01-12",
+      "quantity": 42
+    },
+    {
+      "id": "8",
+      "code": "BO-0008",
+      "title": "Jujutsu Kaisen - Chú Thuật Hồi Chiến",
+      "categoryId": "5",
+      "importDate": "2026-02-28",
+      "quantity": 35
+    },
+    {
+      "id": "9",
+      "code": "BO-0009",
+      "title": "Sword Art Online: Aincrad",
+      "categoryId": "6",
+      "importDate": "2026-03-15",
+      "quantity": 18
+    },
+    {
+      "id": "10",
+      "code": "BO-0010",
+      "title": "Your Name - Kimi no Na wa",
+      "categoryId": "6",
+      "importDate": "2026-04-22",
+      "quantity": 22
+    },
+    {
+      "id": "11",
+      "code": "BO-0011",
+      "title": "Sousou no Frieren - Pháp Sư Tiễn Táng",
+      "categoryId": "5",
+      "importDate": "2026-06-05",
+      "quantity": 28
+    },
+    {
+      "id": "12",
+      "code": "BO-0012",
+      "title": "Clean Code - Nghệ Thuật Viết Code Sạch",
+      "categoryId": "7",
+      "importDate": "2026-07-19",
+      "quantity": 12
+    },
+    {
+      "id": "13",
+      "code": "BO-0013",
+      "title": "Nhắn Gửi Tất Cả Các Em, Những Người Tôi Đã Yêu",
+      "categoryId": "6",
+      "importDate": "2026-08-25",
+      "quantity": 16
+    },
+    {
+      "id": "14",
+      "code": "BO-0014",
+      "title": "Dragon Ball Super - Chú Bé Rồng Kỷ Nguyên Mới",
+      "categoryId": "5",
+      "importDate": "2026-09-14",
+      "quantity": 40
+    },
+    {
+      "id": "15",
+      "code": "BO-0015",
+      "title": "Spy x Family - Gia Đình Điệp Viên",
+      "categoryId": "5",
+      "importDate": "2026-10-10",
+      "quantity": 33
+    },
+    {
+      "id": "16",
+      "code": "BO-0016",
+      "title": "Trí Tuệ Nhân Tạo & Machine Learning Hiện Đại",
+      "categoryId": "7",
+      "importDate": "2026-10-18",
+      "quantity": 10
+    }
+  ]
+}
